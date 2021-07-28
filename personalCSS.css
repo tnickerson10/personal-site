@@ -58,11 +58,10 @@ a:hover {
     text-transform: uppercase;
 }
 
-#hobby1-card-container {
+#hobby1-card-container, #hobby2-card-container, #hobby3-card-container {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url("images/woodworking.png");
     background-color: rgb(109, 117, 101);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -71,35 +70,19 @@ a:hover {
     box-shadow: 19px 29px 81px 29px rgba(0,0,0,0.75);
 }
 
+#hobby1-card-container {
+    background-image: url("images/woodworking.png");
+}
+
 #hobby2-card-container {
-    margin-top: 0;
-    margin-bottom: 0;
-    position: relative;
     background-image: url("images/outdoors.png");
-    background-color: rgb(184, 186, 187);
-    background: linear-gradient(rgb(201, 200, 200) grey);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 500px;
-    box-shadow: 19px 29px 81px 29px rgba(0,0,0,0.75);
 }
 
 #hobby3-card-container {
-    margin-top: 0;
-    margin-bottom: 0;
-    position: relative;
     background-image: url("images/golf.png");
-    background-color: rgb(45, 74, 88);
-    background: linear-gradient(rgb(201, 200, 200) grey);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 500px;
-    box-shadow: 19px 0px 81px 29px rgba(0,0,0,0.75);
 }
 
-#hobby-1-title {
+#hobby-1-title, #hobby-3-title {
     color: white;
     font-size: 80px;
     margin-left: 10%;
@@ -113,14 +96,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-#hobby-3-title {
-    color: white;
-    font-size: 80px;
-    margin-left: 10%;
-    text-transform: uppercase;
-}
-
-#hobby-card-1 {
+#hobby-card-1, #hobby-card-2, #hobby-card-3 {
     background-color: antiquewhite;
     position: absolute;
     top: 25px;
@@ -133,42 +109,14 @@ a:hover {
 }
 
 #hobby-card-2 {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 25px;
     margin-left: 7%;
-    width: 21%;
-    height: 450px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    box-shadow: -35px 15px 70px black;
 }
 
-#hobby-card-3 {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 25px;
-    margin-left: 70%;
-    width: 21%;
-    height: 450px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    box-shadow: -35px 15px 70px black;
-}
-
-#hobby-card-1:hover {
+#hobby-card-1:hover, #hobby-card-2:hover, #hobby-card-3:hover{
     transform: scale(1.10);
 }
 
-#hobby-card-2:hover {
-    transform: scale(1.10);
-}
-
-#hobby-card-3:hover {
-    transform: scale(1.10);
-}
-
-#wood-title {
+#card-header {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
@@ -196,7 +144,6 @@ a:hover {
     font-style: italic;
     text-align: center;
 }
-
 
 #card-words {
     padding: 25px;
@@ -244,6 +191,10 @@ a:hover {
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
+#interest-1:hover, #interest-2:hover, #interest-3:hover {
+    transform: scale(1.10);
+}
+
 
 #interest-1 img, #interest-2 img, #interest-3 img {
     width: 60%;
@@ -253,7 +204,6 @@ a:hover {
     filter: brightness(80%);
        
 }
-
 
 #interest-1 h2, #interest-2 h2, #interest-3 h2{
     padding-bottom: 50px;
