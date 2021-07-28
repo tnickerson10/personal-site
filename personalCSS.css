@@ -197,7 +197,7 @@ a:hover {
 
 #interest-1 img, #interest-2 img, #interest-3 img {
     width: 60%;
-    height: 40%;
+    height: 30%;
     border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);
