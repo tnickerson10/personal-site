@@ -62,7 +62,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url("woodworking.png");
+    background-image: url("images/woodworking.png");
     background-color: rgb(109, 117, 101);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -75,7 +75,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url("outdoors.png");
+    background-image: url("images/outdoors.png");
     background-color: rgb(184, 186, 187);
     background: linear-gradient(rgb(201, 200, 200) grey);
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url("golf.png");
+    background-image: url("images/golf.png");
     background-color: rgb(45, 74, 88);
     background: linear-gradient(rgb(201, 200, 200) grey);
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ a:hover {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
-    background-image: url("outdoors.png");
+    background-image: url("images/outdoors.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -234,7 +234,6 @@ a:hover {
     width: 80%;
     height: 90%;
     border-radius: 3px;
-    box-shadow: -5px 5px 5px coral;
     float: left;
     margin-left: 60px;
     margin-top: 25px;
