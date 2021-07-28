@@ -27,15 +27,16 @@ img {
 
 #nav-bar {
     position: absolute;
-    text-align: center;
-    left: 37%;
-    height: 70px;
+    margin: auto;
+    top: 25%;
+    left: 35%;
+    bottom: 0;
+    right: 0;
 }
 
 a {
-    float: right;
-    margin-left: 50px;
-    padding-top: 17px;
+    margin-top: 50px;
+    padding: 20px;
     color: white;
     list-style: none;
     text-decoration: none;
@@ -140,14 +141,14 @@ a:hover {
     font-size: 25px;
     width: 400px;
     color: black;
-    margin-left: 75%;
+    margin-left: 55%;
     font-style: italic;
     text-align: center;
 }
 
 #card-words {
     padding: 25px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -179,7 +180,6 @@ a:hover {
 
 #interest-1, #interest-2, #interest-3 {
     width: 80%;
-    height: 90%;
     border-radius: 3px;
     float: left;
     margin-left: 60px;
@@ -213,8 +213,8 @@ a:hover {
 
 #interest-1 p, #interest-2 p, #interest-3 p {
     font-style: italic;
-    font-size: 20px;
-    padding: 40px;
+    font-size: 17px;
+    margin-top: 10%;
 }
 
 
