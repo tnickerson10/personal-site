@@ -50,7 +50,7 @@ a:hover {
 }
 
 
-#hobby-header-container {
+#hobby-header-container, #interests-header-container, #contact-header-container {
     width: 100%;
     font-size: 30px;
     text-align: center;
@@ -88,6 +88,7 @@ a:hover {
     font-size: 80px;
     margin-left: 10%;
     text-transform: uppercase;
+    text-shadow: 15px 15px 15px black;
 }
 
 #hobby-2-title {
@@ -95,10 +96,12 @@ a:hover {
     margin-left: 60%;
     font-size: 80px;
     text-transform: uppercase;
+    text-shadow: 15px 15px 15px black;
 }
 
 #hobby-card-1, #hobby-card-2, #hobby-card-3 {
     background-color: antiquewhite;
+    color: rgb(30, 37, 46);
     position: absolute;
     top: 25px;
     margin-left: 70%;
@@ -134,6 +137,7 @@ a:hover {
     margin-left: 35%;
     font-style: italic;
     text-align: center;
+    text-shadow: 3px 3px 10px black;
 }
 
 #outdoor-quote {
@@ -144,21 +148,13 @@ a:hover {
     margin-left: 55%;
     font-style: italic;
     text-align: center;
+    text-shadow: 3px 3px 10px white;
 }
 
 #card-words {
     padding: 25px;
     font-size: 20px;
     text-align: center;
-}
-
-#interests-header-container {
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
 }
 
 #interest-container {
@@ -179,19 +175,24 @@ a:hover {
 
 #interest-1, #interest-2, #interest-3 {
     width: 80%;
-    border-radius: 3px;
+    height: 65%;
+    border-radius: 20px;
     float: left;
-    margin-left: 60px;
-    margin-top: 25px;
+    margin-left: 10%;
+    margin-top: 30%;
     margin-bottom: 10px;
     background-color: antiquewhite;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #interest-1:hover, #interest-2:hover, #interest-3:hover {
     transform: scale(1.10);
+}
+
+#interest-2:hover{
+    transform: scale(1.2);
 }
 
 
@@ -205,7 +206,8 @@ a:hover {
 }
 
 #interest-1 h2, #interest-2 h2, #interest-3 h2{
-    padding-bottom: 50px;
+    color: rgb(30, 37, 46);
+    padding-bottom: 40px;
     font-size: 40px;
     border-bottom: 3px solid rgb(54, 54, 82);
 }
@@ -213,9 +215,114 @@ a:hover {
 #interest-1 p, #interest-2 p, #interest-3 p {
     text-align: center;
     font-style: italic;
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 15%;
+    margin-bottom: 10%;
     padding: 20px;
+}
+
+#contact-background {
+    position: relative;
+}
+
+#contact-background img {
+    filter: brightness(70%);
+}
+
+#social-icons {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    background-color: antiquewhite;
+    filter: brightness(100%);
+    background-color: blue;
+}
+
+#social-icons em {
+   font-size: 50px;
+   padding: 20px;
+   color: antiquewhite;
+}
+
+#social-icons em:hover {
+    transform: scale(1.2);
+    opacity: .50;
+    cursor: pointer;
+}
+
+#map-img img{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 60%;
+    border-radius: 20px;
+    -webkit-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    filter: brightness(100%);
+}
+
+#contact-form-card {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    width: 25%;
+    height: 75%;
+    border-radius: 20px;
+    -webkit-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: -12px 29px 81px 0px rgba(0,0,0,0.75);
+    filter: brightness(100%);
+}
+
+#contact-heading h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+#contact-heading p {
+    text-align: center;
+    font-size: 17px;
+}
+
+#contact-details {
+    margin-left: 10%;
+    padding: 10px;
+}
+
+input, button, textarea {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 12px 5px 10px 0px rgba(0,0,0,0.75);
+    filter: brightness(100%);
+}
+
+button {
+    width: 35%;
+    background-color:blue;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: rgb(77, 77, 248);
+    cursor: pointer;
 }
 
 
