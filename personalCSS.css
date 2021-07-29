@@ -312,12 +312,15 @@ input, button, textarea {
     border-radius: 10px;
     box-shadow: 12px 5px 10px 0px rgba(0,0,0,0.75);
     filter: brightness(100%);
+    text-align: center;
 }
 
 button {
+    
     width: 35%;
     background-color:blue;
     color: antiquewhite;
+    
 }
 
 button:hover {
