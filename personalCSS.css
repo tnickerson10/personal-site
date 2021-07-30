@@ -111,6 +111,8 @@ a:hover {
     border: 1px solid grey;
     border-radius: 20px;
     box-shadow: -35px 15px 70px black;
+    transition-duration: 1000ms;
+    transition-property: transform;
 }
 
 #hobby-card-2 {
@@ -119,6 +121,7 @@ a:hover {
 
 #hobby-card-1:hover, #hobby-card-2:hover, #hobby-card-3:hover{
     transform: scale(1.10);
+    transform: rotate(360deg);
 }
 
 #card-header {
@@ -317,7 +320,7 @@ button {
     width: 45%;
     background-color:blue;
     color: antiquewhite;
-    
+    transition: 500ms;
 }
 
 button:hover {
