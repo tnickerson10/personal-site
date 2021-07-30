@@ -45,6 +45,9 @@ a {
     text-transform: uppercase;
 }
 a:hover {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 250ms ease-in;
     border-bottom: 3px solid coral;
     padding-bottom: 5px;
 }
