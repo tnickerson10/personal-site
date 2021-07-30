@@ -190,12 +190,12 @@ a:hover {
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
-#interest-1:hover, #interest-2:hover, #interest-3:hover {
-    transform: scale(1.10);
+#interest-2 {
+    transform: scale(1.2);
 }
 
-#interest-2:hover{
-    transform: scale(1.2);
+#interest-1:hover, #interest-3:hover {
+    transform: scale(1.10);
 }
 
 
