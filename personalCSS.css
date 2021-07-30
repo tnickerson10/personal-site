@@ -278,6 +278,7 @@ a:hover {
     left: 37%;
     transform: translate(-50%, -50%);
     background-color: antiquewhite;
+    opacity: .95;
     width: 25%;
     height: 75%;
     border-radius: 20px;
