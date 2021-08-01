@@ -1,8 +1,17 @@
+/* 
+Travis Nickerson
+CSD 340
+July 28th, 2021
+Personal Site
+*/
+
+/* clears body margin and padding */
 body {
     margin: 0;
     padding: 0;
 }
 
+/* HERO IMAGE POSITION */
 #hero-img {
     position: relative;
 }
@@ -14,6 +23,7 @@ img {
     margin: 0;
     box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.75);}
 
+/* NAVIGATION */
 #nav-bar-container {
     position: fixed;
     z-index: 1000;
@@ -51,7 +61,7 @@ a:hover {
     padding-bottom: 5px;
 }
 
-
+/* HEADER CONTAINERS */
 #hobby-header-container, #interests-header-container, #contact-header-container {
     width: 100%;
     font-size: 30px;
@@ -61,6 +71,7 @@ a:hover {
     text-transform: uppercase;
 }
 
+/* HOBBY CARDS CONTAINERS */
 #hobby1-card-container, #hobby2-card-container, #hobby3-card-container {
     margin-top: 0;
     margin-bottom: 0;
@@ -73,6 +84,7 @@ a:hover {
     box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.75);
 }
 
+/* HOBBY CARDS */
 #hobby1-card-container {
     background-image: url("images/woodworking.png");
     background-blend-mode: multiply;
@@ -133,6 +145,7 @@ a:hover {
     padding-bottom: 30px;
 }
 
+/* HOBBY QUOTES */
 #wood-quote, #outdoor-quote, #golf-quote {
     margin-top: 50px;
     font-size: 25px;
@@ -154,6 +167,7 @@ a:hover {
     text-align: center;
 }
 
+/* INTERESTS CONTAINER THAT HOLDS THE CARDS */
 #interest-container {
     text-align: center;
     display: grid;
@@ -170,6 +184,7 @@ a:hover {
     box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.75);
 }
 
+/* INTERESTS CARDS */
 #interest-1, #interest-2, #interest-3 {
     width: 80%;
     height: 70%;
@@ -218,6 +233,7 @@ a:hover {
     line-height: 1.3;
 }
 
+/* CONTACT PAGE */
 #contact-background {
     position: relative;
     box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.75);
@@ -227,6 +243,7 @@ a:hover {
     filter: brightness(70%);
 }
 
+/* ICONS CONTAINER FOR SOCIAL MEDIA */
 #social-icons {
     position: absolute;
     z-index: 1000;
@@ -246,6 +263,7 @@ a:hover {
     background-color: blue;
 }
 
+/* SOCIAL MEDIA ICONS */
 #social-icons em {
    font-size: 50px;
    padding: 20px;
@@ -258,6 +276,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* MAP IMAGE */
 #map-img img{
     position: absolute;
     top: 50%;
@@ -272,6 +291,7 @@ a:hover {
     filter: brightness(100%);
 }
 
+/* CONTACT CARD */
 #contact-form-card {
     position: absolute;
     top: 50%;
@@ -306,6 +326,7 @@ a:hover {
     padding: 10px;
 }
 
+/* INPUTS AND BUTTON */
 input, button, textarea {
     margin: 10px;
     padding: 5px;
